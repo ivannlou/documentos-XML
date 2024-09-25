@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LALIGA [
+        <!ELEMENT LALIGA (Jornada+)>
+        <!ELEMENT Jornada (Partido+)>
+        <!ELEMENT Partido (EquipoLocal, EquipoVisitante, MarcadorLocal, MarcadorVisitante, Estadisticas)>
+        <!ELEMENT EquipoLocal (#PCDATA)>
+        <!ELEMENT EquipoVisitante (#PCDATA)>
+        <!ELEMENT MarcadorLocal (#PCDATA)>
+        <!ELEMENT MarcadorVisitante (#PCDATA)>
+        <!ELEMENT Estadisticas (Posesion, Tiros, TarjetasAmarillas, TarjetasRojas)>
+        <!ELEMENT Posesion (#PCDATA)>
+        <!ELEMENT Tiros (#PCDATA)>
+        <!ELEMENT TarjetasAmarillas (#PCDATA)>
+        <!ELEMENT TarjetasRojas (#PCDATA)>
+        ]>
+
+<LALIGA>
+    <Jornada>
+        <Partido>
+            <EquipoLocal>Real Betis</EquipoLocal>
+            <EquipoVisitante>Valencia</EquipoVisitante>
+            <MarcadorLocal>1</MarcadorLocal>
+            <MarcadorVisitante>3</MarcadorVisitante>
+            <Estadisticas>
+                <Posesion>45%</Posesion>
+                <Tiros>7</Tiros>
+                <TarjetasAmarillas>2</TarjetasAmarillas>
+                <TarjetasRojas>1</TarjetasRojas>
+            </Estadisticas>
+        </Partido>
+        <Partido>
+            <EquipoLocal>Espanyol</EquipoLocal>
+            <EquipoVisitante>Granada</EquipoVisitante>
+            <MarcadorLocal>0</MarcadorLocal>
+            <MarcadorVisitante>2</MarcadorVisitante>
+            <Estadisticas>
+                <Posesion>52%</Posesion>
+                <Tiros>5</Tiros>
+                <TarjetasAmarillas>1</TarjetasAmarillas>
+                <TarjetasRojas>0</TarjetasRojas>
+            </Estadisticas>
+        </Partido>
+        <Partido>
+            <EquipoLocal>Getafe</EquipoLocal>
+            <EquipoVisitante>Celta de Vigo</EquipoVisitante>
+            <MarcadorLocal>2</MarcadorLocal>
+            <MarcadorVisitante>2</MarcadorVisitante>
+            <Estadisticas>
+                <Posesion>50%</Posesion>
+                <Tiros>10</Tiros>
+                <TarjetasAmarillas>3</TarjetasAmarillas>
+                <TarjetasRojas>0</TarjetasRojas>
+            </Estadisticas>
+        </Partido>
+        <Partido>
+            <EquipoLocal>Real Sociedad</EquipoLocal>
+            <EquipoVisitante>Osasuna</EquipoVisitante>
+            <MarcadorLocal>4</MarcadorLocal>
+            <MarcadorVisitante>0</MarcadorVisitante>
+            <Estadisticas>
+                <Posesion>60%</Posesion>
+                <Tiros>15</Tiros>
+                <TarjetasAmarillas>0</TarjetasAmarillas>
+                <TarjetasRojas>0</TarjetasRojas>
+            </Estadisticas>
+        </Partido>
+    </Jornada>
+</LALIGA>
